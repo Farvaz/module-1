@@ -62,9 +62,7 @@ h2 {
 
 .image-body {
    
-
     width: 1150px;
-    height: 650px;
     margin-top: 30px;
 
     background-image: url('../resources/image-body.png');
@@ -72,7 +70,7 @@ h2 {
     background-repeat: no-repeat;  
 }
 
-.image-body-text-wrapper {
+.image-body-text {
     
     width: 430px;
     height: 81px;
@@ -91,7 +89,7 @@ h2 {
     color: #FFFFFF;
 }
 
-.like {
+.mane__btn {
     display: block;
 
     width: 255px;
@@ -122,7 +120,7 @@ h2 {
     width: 1150px;
 }
 
-.item__name {
+.item__project {
     width: 79px;
     height: 25px;
 
@@ -136,11 +134,11 @@ h2 {
     color: #121212;    
 }
 
-.item__image {
+.project__image {
     padding-top: 30px;
 }
 
-.item__moniker {
+.project__descr {
     width: 501px;
     height: 41px;
 
@@ -155,7 +153,7 @@ h2 {
     color: #121212; 
 }
 
-.item__snap {
+.project__snap {
     width: 127px;
     height: 27px;
 
@@ -164,11 +162,11 @@ h2 {
     color: #AD1818;
 }
 
-.item__three {
+.project__three {
     padding-top: 90px;
 }
 
-.item__moniker__three {
+.project__descrthree {
     width: 520px;
 
     margin-top: 15px;
@@ -182,11 +180,11 @@ h2 {
     color: #121212;   
 }
 
-.item__four {
+.project__four {
     padding-top: 90px;
 }
 
-.item__moniker__four {
+.project__descrfour {
     width: 542px;
      
     margin-top: 15px;
@@ -200,7 +198,7 @@ h2 {
     color: #121212;
 }
 
-.window {
+.project__btn {
     width: 1150px;
     height: 153px;
 
@@ -224,7 +222,7 @@ h2 {
     color: #AD1818;
 }
 
-.window:hover {
+.project__btn:hover {
     color: #FFFFFF;
     background-color: #AD1818;
 }
