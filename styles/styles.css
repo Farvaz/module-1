@@ -149,7 +149,7 @@ h2 {
 }
 
 .project__descr {
-    width: 501px;
+    width: 1100px;
     height: 41px;
 
     margin-top: 15px;
@@ -170,34 +170,6 @@ h2 {
     text-decoration: none;
 
     color: #AD1818;
-}
-
-.project__descrthree {
-    width: 520px;
-
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-
-    color: #121212;   
-}
-
-.project__descrfour {
-    width: 542px;
-     
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-
-    color: #121212;
 }
 
 .project__btn {
@@ -259,14 +231,14 @@ h2 {
     color: #FFFFFF;
 }
 
-.section__one {
+.section__image {
     padding-left: 125px;
 
     margin-bottom: 15px;
 }
 
 .section__snap {
-    width: 541px;
+    width: 1100px;
     height: 41px;
 
     font-weight: 400;
@@ -276,58 +248,6 @@ h2 {
     padding-left: 128px;
 
     margin-bottom: 60px;
-
-    letter-spacing: -0.03em;
-
-    color: #FFFFFF;
-}
-
-.section__snaptwo {
-    width: 405px;
-    height: 41px;
-
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-
-    padding-left: 128px;
-
-    margin-bottom: 60px;
-
-    letter-spacing: -0.03em;
-
-    color: #FFFFFF;
-}
-
-.section__snapthree {
-    width: 536px;
-    height: 41px;
-
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-
-    padding-left: 128px;
-
-    margin-bottom: 60px;
-
-    letter-spacing: -0.03em;
-
-    color: #FFFFFF;
-}
-
-.section__snapfour {
-    
-    width: 661px;
-    height: 41px;
-
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-
-    padding-left: 128px;
-
-    margin-bottom: 150px;
 
     letter-spacing: -0.03em;
 
