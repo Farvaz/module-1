@@ -1,9 +1,11 @@
 body {
     font-family: 'Manrope', Courier, monospace;
 
-    
-
     background-color: #F5F5F5;   
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, div, p, a {
@@ -14,8 +16,6 @@ h1, h2, h3, div, p, a {
     width: 1400px;
     
     margin: 0 auto;
-
-    letter-spacing: -0.03em;
 
     background-color: #FFFFFF; 
 }
@@ -109,7 +109,12 @@ h2 {
     background-color: #AD1818;
 }
 
-.project__white {
+.main__btn:hover {
+    color: #AD1818;
+    background-color: #FFFFFF;
+}
+
+.projects {
     padding-left: 125px;
     padding-right: 125px;
     box-sizing: border-box;
@@ -123,8 +128,6 @@ h2 {
 .item__project {
     width: 79px;
     height: 25px;
-
-    padding-top: 150px;
 
     font-weight: 400;
     font-size: 18px;
@@ -183,6 +186,8 @@ h2 {
 
     cursor: pointer;
 
+    text-decoration: none;
+
     border: 1px solid #AD1818;
 
     color: #AD1818;
@@ -193,7 +198,7 @@ h2 {
     background-color: #AD1818;
 }
 
-.section__black {   
+.services {   
     width: 1400px;
 
     margin-top: 150px;
@@ -209,12 +214,13 @@ h2 {
 
     padding-left: 127px;
     padding-top: 151px;
+    padding-bottom: 34px;
 
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
 
-    margin-bottom: 34px;
+    
 
     color: #FFFFFF;
 }
