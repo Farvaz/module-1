@@ -198,7 +198,7 @@ h2 {
     background-color: #AD1818;
 }
 
-.services {   
+.servicess {   
     width: 1400px;
 
     margin-top: 150px;
@@ -208,7 +208,7 @@ h2 {
     background-color: #121212;
 }
 
-.section__name {
+.services__name {
     width: 66px;
     height: 25px;
 
@@ -225,21 +225,21 @@ h2 {
     color: #FFFFFF;
 }
 
-.section {
+.services {
     padding-bottom: 60px;
 }
 
-.section:nth-last-child(1) {
+.services:nth-last-child(1) {
     padding-bottom: 150px;
 }
 
-.section__image {
+.services__image {
     padding-left: 125px;
 
     margin-bottom: 15px;
 }
 
-.section__snap {
+.services__snap {
     width: 1100px;
     height: 41px;
 
