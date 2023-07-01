@@ -1,11 +1,10 @@
 body {
     font-family: 'Manrope', Courier, monospace;
-
-    background-color: #F5F5F5;   
 }
 
 html {
     scroll-behavior: smooth;
+    min-width: 1400px;
 }
 
 h1, h2, h3, div, p, a {
@@ -14,55 +13,11 @@ h1, h2, h3, div, p, a {
 }
 
 .container {
-    width: 1400px;
-    
     margin: 0 auto;
+    width: 1400px;
 
-    background-color: #FFFFFF; 
-}
-
-.cap {
     padding-left: 125px;
     padding-right: 125px;
-    padding-top: 33px;
-}
-
-.cap__logo {
-    display: inline-block;
-}
-
-.cap__metrika {
-    display: block;
-}
-
-.cap__nav {
-    display: inline-block;
-    vertical-align: top;
-    float: right; 
-}
-
-.cap__link {
-    font-size: 18px;
-    line-height: 25px;
-    text-decoration: none;
-    color: #121212;
-}
-
-.cap__link:not(:last-child) {
-    margin-right: 60px;
-}
-
-.cap__link_active {
-    text-decoration: underline;
-}
-
-.header {
-    padding-left: 125px;
-    padding-right: 125px;  
-
-    padding-top: 128px; 
-
-    box-sizing: border-box;
 }
 
 h1 {
@@ -85,6 +40,7 @@ h3 {
     font-size: 30px;
     line-height: 41px;
 }
+
 
 
 .aboutus__title {
@@ -153,12 +109,6 @@ h3 {
     background-color: #FFFFFF;
 }
 
-.projects {
-    padding-left: 125px;
-    padding-right: 125px;
-    box-sizing: border-box;
-}
-
 .item {
     width: 1150px;
     margin-top: 30px;
@@ -220,12 +170,6 @@ h3 {
 }
 
 .servicess {   
-    width: 1400px;
-
-    margin-top: 150px;
-
-    box-sizing: border-box;
-
     background-color: #121212;
 }
 
@@ -246,15 +190,11 @@ h3 {
 }
 
 .services__image {
-    padding-left: 125px;
-
     margin-bottom: 15px;
 }
 
 
 .services__descr {
-    padding-left: 128px;
-
     color: #FFFFFF;
 }
 
