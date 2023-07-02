@@ -111,16 +111,16 @@ h3 {
     background-color: #FFFFFF;
 }
 
+
 .item {
-    width: 1150px;
     margin-top: 30px;
 }
 
-.project {
+.project__part {
     margin-top: 90px;
 }
 
-.project:nth-last-child(4) {
+.project__part:nth-last-child(4) {
     margin-top: 0px;
 }
 
@@ -171,23 +171,22 @@ h3 {
     background-color: #AD1818;
 }
 
-.servicess {   
+.services {   
     background-color: #121212;
 }
 
-.servicess h2 {
-    padding-left: 127px;
+.services h2 {
     padding-top: 151px;
     padding-bottom: 34px;
 
     color: #FFFFFF;
 }
 
-.services {
+.services__part {
     padding-bottom: 60px;
 }
 
-.services:nth-last-child(1) {
+.services__part:nth-last-child(1) {
     padding-bottom: 150px;
 }
 
@@ -199,14 +198,3 @@ h3 {
 .services__descr {
     color: #FFFFFF;
 }
-
-.project__descr {
-    width: 1100px;
-    height: 41px;
-
-    margin-top: 15px;
-    margin-bottom: 15px; 
-
-    color: #121212; 
-}
-
