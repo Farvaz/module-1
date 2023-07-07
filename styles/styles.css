@@ -27,17 +27,50 @@ h1 {
     width: 965px;
 
     font-size: 60px;
-    line-height: 60px;   
+    line-height: 56px;   
 }
 
 h2 {
     font-size: 18px;
-    line-height: 25px;   
+    line-height: 29px;   
 }
 
 h3 {
     font-size: 30px;
     line-height: 41px;
+}
+
+header {
+    margin-top: 33px;
+}
+
+.head__logo {
+    line-height: 38px;
+    display: inline-block;
+}
+
+.metrika {
+    display: block;
+}
+
+.head__nav {
+    float: right;   
+}
+
+.head__nav a:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.head__link {
+    font-size: 17.5px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #121212;
+}
+
+.head__link:not(:last-child) {
+    margin-right: 60px;
 }
 
 .intro {
@@ -59,7 +92,7 @@ h3 {
     color: #121212;  
 }
 
-.image__body {
+.intro__image {
     width: 1150px;
     height: 500px;
 
@@ -72,7 +105,7 @@ h3 {
     background-size: cover;
 }
 
-.image__body__text {
+.intro__image__text {
     width: 430px;
 
     position: absolute;
@@ -81,7 +114,7 @@ h3 {
     left: 40px;
     
     font-size: 20px;
-    line-height: 27.32px;
+    line-height: 29px;
     
     color: #FFFFFF;
 }
@@ -97,8 +130,7 @@ h3 {
     border-radius: 5px;
 
     font-size: 20px;
-    line-height: 67px;
-
+    line-height: 62px;
     cursor: pointer;
 
     border: 1px solid #AD1818;
@@ -117,16 +149,16 @@ h3 {
     margin-top: 150px;
 }
 
-.project__list {
-    margin-top: 30px;
+.projects h2 {
+    line-height: 21px;
 }
 
-.project__part {
+.project {
     margin-top: 90px;
 }
 
-.project__part:nth-child(1) {
-    margin-top: 0px;
+.project:nth-child(1) {
+    margin-top: 30px;
 }
 
 .project__description {
@@ -137,8 +169,9 @@ h3 {
 }
 
 .project__link {
-    width: 127px;
-    height: 27px;
+    display: inline-block;
+    font-size: 21px;
+    line-height: 23px;
 
     text-decoration: none;
 
@@ -155,9 +188,9 @@ h3 {
     display: block;
 
     font-size: 30px;
-    line-height: 153px;  
+    line-height: 155px;  
 
-    margin-top: 90px;
+    margin-top: 92.1px;
 
     border-radius: 5px;
 
@@ -177,23 +210,29 @@ h3 {
 
 .services { 
     margin-top: 150px;
+    padding-top: 151px;
+    padding-bottom: 150px;
       
     background-color: #121212;
 }
 
 .services h2 {
-    padding-top: 151px;
-    padding-bottom: 34px;
+    padding-bottom: 31px;
 
     color: #FFFFFF;
 }
 
-.services__part {
+.services h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.services__price {
     padding-bottom: 60px;
 }
 
-.services__part:nth-child(4) {
-    padding-bottom: 150px;
+.services__price:nth-child(4) {
+    padding-bottom: 0px;
 }
 
 .services__image {
@@ -203,4 +242,103 @@ h3 {
 
 .services__description {
     color: #FFFFFF;
+}
+
+.galleryfullscreen {
+    height: 717px;
+    background-image: url('../resources/poolimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+
+    position: relative;
+}
+
+.galleryfullscreen p {
+    position: absolute;
+
+    bottom: 60px;
+
+    color: #FFFFFF;
+
+    width: 443px;
+    font-size: 30.3px;
+    line-height: 42px;
+    letter-spacing: -1px  
+}
+
+.contacts {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.contacts h2 {
+    
+}
+
+.contacts h2:before {
+    content: '';
+    
+    display: block;
+    margin-bottom: 13px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../resources/miniphone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+
+.contacts__item {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 62px;
+    line-height: 65px;
+    
+    border-bottom: 1px solid transparent;
+
+    text-decoration: none;
+}
+
+.contacts__item:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    background: #121212;
+    padding: 60px 0 30px;
+}
+
+.footer__nav {
+    width: 460px;
+    margin: auto;
+}
+
+.footer__nav a:nth-last-child(4) {
+    margin-left: 0px;
+}
+
+.footer__nav a {
+    margin-left: 53px;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__nav a:hover {
+    opacity: 0.5;
+} 
+
+.footer__text {
+    margin-top: 87px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    opacity: 0.5;
 }
