@@ -17,10 +17,7 @@ h1, h2, h3, div, p, a {
 
 .container {
     margin: 0 auto;
-    width: 1400px;
-
-    padding-left: 125px;
-    padding-right: 125px;
+    width: 1150px
 }
 
 h1 {
@@ -63,14 +60,15 @@ header {
 }
 
 .head__link {
+    margin-right: 60px;
     font-size: 17.5px;
     line-height: 26px;
     text-decoration: none;
     color: #121212;
 }
 
-.head__link:not(:last-child) {
-    margin-right: 60px;
+.head__link:last-child {
+    margin-right: 0px;
 }
 
 .intro {
@@ -157,7 +155,7 @@ header {
     margin-top: 90px;
 }
 
-.project:nth-child(1) {
+.project:first-child {
     margin-top: 30px;
 }
 
@@ -231,7 +229,7 @@ header {
     padding-bottom: 60px;
 }
 
-.services__price:nth-child(4) {
+.services__price:last-child {
     padding-bottom: 0px;
 }
 
@@ -272,10 +270,6 @@ header {
     margin-bottom: 150px;
 }
 
-.contacts h2 {
-    
-}
-
 .contacts h2:before {
     content: '';
     
@@ -288,8 +282,6 @@ header {
     background-repeat: no-repeat;
     background-position: 50%;
 }
-
-
 
 .contacts__item {
     display: inline-block;
@@ -307,7 +299,7 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.footer {
+footer {
     background: #121212;
     padding: 60px 0 30px;
 }
@@ -317,7 +309,7 @@ header {
     margin: auto;
 }
 
-.footer__nav a:nth-last-child(4) {
+.footer__nav a:first-child {
     margin-left: 0px;
 }
 
